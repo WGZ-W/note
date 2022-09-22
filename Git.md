@@ -14,16 +14,18 @@
 ### Clone
 ```
 1.  git clone URL
-2.  git add / commit
-3.  git push -u origin main
+2.  git fetch 
+3.  git add / commit
+4.  git push -u origin main
 ```
 ### Remote
 ```
 1.  git remote add origin URL
-2.  git checkout -b main
-3.  git pull origin main
-4.  git add / commit
-5.  git push -u origin main
+2.  git fetch
+3.  git checkout -b main
+4.  git pull origin main
+5.  git add / commit
+6.  git push -u origin main
 ```
 
 ## 分支操作
