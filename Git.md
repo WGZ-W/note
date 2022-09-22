@@ -1,5 +1,31 @@
 # 简单的 Git 使用
 
+
+- [简单的 Git 使用](#简单的-git-使用)
+  - [初级使用方法](#初级使用方法)
+    - [Clone](#clone)
+    - [Remote](#remote)
+  - [分支操作](#分支操作)
+  - [连接远程仓库](#连接远程仓库)
+  - [设置 ssh 密钥连接](#设置-ssh-密钥连接)
+
+
+## 初级使用方法
+### Clone
+```
+1.  git clone URL
+2.  git add / commit
+3.  git push -u origin main
+```
+### Remote
+```
+1.  git remote add origin URL
+2.  git checkout -b main
+3.  git pull origin main
+4.  git add / commit
+5.  git push -u origin main
+```
+
 ## 分支操作
 ```
 创建新的分支
